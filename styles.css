@@ -24,10 +24,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
   padding: 35px;
+  backdrop-filter: blur(15px);
 }
 .card-footer {
   font-size: 0.65em;
   color: #446;
-  margin-top: 150px;
-  margin-bottom: 0;
 }
