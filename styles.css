@@ -7,7 +7,7 @@ body {
   font-family: 'inter', sans-serif;
   color: #224;
   font-size: 20px;
-  background:linear-gradient(-70deg,  #202020, #000000);
+  background: linear-gradient(-70deg, #202020, #000000);
 }
 /*.glass-card {
   display: flex;
@@ -34,12 +34,12 @@ body {
   font-size: 0.65em;
   color: #446;
 }*/
-.glass-card{
-padding: 30px;
-min-height: 100vh;
-color: white;
+.glass-card {
+  padding: 30px;
+  min-height: 100vh;
+  color: white;
 }
-.card{
+.card {
   background: rgba(255, 255, 255, 0.1);
   height: 260px;
   width: 420px;
@@ -47,14 +47,13 @@ color: white;
 
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
-.card-num{
-  font-size: 12px;
+.card-number {
+  display: flex;
+  flex-direction: column;
+}
+.num{
+  font-size:12px ;
   color: white;
   font-family: "space mono",monospace;
   padding-bottom: 2px;
-}
-.num{
-  font-size: 30px;
-  color: #ffffff;
-  height: ;
 }
