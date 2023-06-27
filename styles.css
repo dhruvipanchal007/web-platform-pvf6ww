@@ -7,7 +7,7 @@ body {
   font-family: 'inter', sans-serif;
   color: #224;
   font-size: 20px;
-  background: linear-gradient(-70deg, #202020, #000000);
+  background-image: url(https://t3.ftcdn.net/jpg/05/40/04/46/360_F_540044645_euvM4jng8cjqkpwT6NkjyfHePtREP3JA.jpg);
 }
 /*.glass-card {
   display: flex;
@@ -34,10 +34,14 @@ body {
   font-size: 0.65em;
   color: #446;
 }*/
+/* second card*/
 .glass-card {
   padding: 30px;
   min-height: 100vh;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card {
   background: rgba(255, 255, 255, 0.1);
@@ -46,6 +50,7 @@ body {
   border-radius: 20px;
   padding: 20px;
   border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
 }
 .card-number {
   display: flex;
@@ -58,23 +63,40 @@ body {
   font-family: 'space mono', monospace;
   padding-bottom: 2px;
 }
-.text {
+.card-num-text {
   background-color: transparent;
   border: none;
   font-size: 30px;
   font-family: 'space mono', monospace;
 }
-.d-flex {
-  display: flex;
-  flex-direction: column;
+.card-num-text:hover{
+  border: none;
+  border-bottom: 2px solid white;
 }
-.text-2{
+
+.group-text{
   background-color: transparent;
   border: none;
   font-size: 16px;
   font-family: 'space mono', monospace;
-
 }
-.group{
+.group-text:hover{
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.group {
   display: flex;
+}
+.card-holder {
+  max-width: 150px;
+}
+.exp-date {
+  max-width: 70px;
+}
+.ccv {
+  max-width: 70px;
+}
+.item {
+  margin-right: 40px;
 }
